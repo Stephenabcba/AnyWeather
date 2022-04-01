@@ -13,7 +13,7 @@ const DisplayWeather = ({ curWeather, curCity, weatherType }) => {
         "sunny",
         "snowing",
         "thunder storming",
-        "cloudy (not animated)"
+        "cloudy"
     ]
 
     const switchWeather = () => {
