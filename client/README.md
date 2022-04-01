@@ -1,6 +1,7 @@
 # Any Weather (public)
 - This Project uses `OpenWeather` and `Google Maps` APIs to present animated weather conditions for the selected city
 - Currently available weather conditions: Sunny, Rainy, Thunder storm, and Snow.
+  - Cloudy condition is shown but not animated.
 - To run this project:
 1. Clone or Download this project to your computer
 2. Go into the `/clients/` folder
