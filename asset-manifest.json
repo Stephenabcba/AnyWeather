@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AnyWeather/static/css/main.a7182776.css",
-    "main.js": "/AnyWeather/static/js/main.15d1228f.js",
+    "main.js": "/AnyWeather/static/js/main.37b302db.js",
     "static/js/787.c4e7f8f9.chunk.js": "/AnyWeather/static/js/787.c4e7f8f9.chunk.js",
     "static/media/pexels-lumn-167699.jpg": "/AnyWeather/static/media/pexels-lumn-167699.0ce02ede09a3230f1ddf.jpg",
     "static/media/sunny-background2.jpg": "/AnyWeather/static/media/sunny-background2.2ba45b48ba44270d48d3.jpg",
@@ -10,11 +10,11 @@
     "static/media/cloudy_background.jpg": "/AnyWeather/static/media/cloudy_background.e33f9a581b916a163c05.jpg",
     "index.html": "/AnyWeather/index.html",
     "main.a7182776.css.map": "/AnyWeather/static/css/main.a7182776.css.map",
-    "main.15d1228f.js.map": "/AnyWeather/static/js/main.15d1228f.js.map",
+    "main.37b302db.js.map": "/AnyWeather/static/js/main.37b302db.js.map",
     "787.c4e7f8f9.chunk.js.map": "/AnyWeather/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a7182776.css",
-    "static/js/main.15d1228f.js"
+    "static/js/main.37b302db.js"
   ]
 }
