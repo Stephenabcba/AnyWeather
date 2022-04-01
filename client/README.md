@@ -1,4 +1,18 @@
-# Getting Started with Create React App
+# Any Weather (public)
+- This Project uses `OpenWeather` and `Google Maps` APIs to present animated weather conditions for the selected city
+- Currently available weather conditions: Sunny, Rainy, Thunder storm, and Snow.
+- To run this project:
+1. Clone or Download this project to your computer
+2. Go into the `/clients/` folder
+3. run `npm install`
+4. create `.env` file in the `/clients/` folder
+   - create the `REACT_APP_GOOGLEMAPSKEY` variable with your google maps api key
+   - create the `REACT_APP_OW_API_KEY` variable with your OpenWeather api key
+5. run `npm start`
+
+
+
+# Getting Started with Create React App (Default information from Create React App)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
