@@ -2,15 +2,17 @@ import './App.css';
 
 import React, { useState } from 'react';
 import MainWeather from './components/MainWeather';
+import CrossShape from './components/CrossShape';
 
 
 
 function App() {
 
   const [firstEntry, setFirstEntry] = useState(true)
+  const [animationDone, setAnimationDone] = useState(false)
+
 
   const handleScroll = (e) => {
-    // console.log("etarget", e.target.scrollTop)
     if (!firstEntry || e.target.scrollTop >= window.innerHeight * 1 / 3) {
       if (firstEntry) {
         setFirstEntry(false)
@@ -20,9 +22,11 @@ function App() {
   }
   return (
     <div className="App" onScroll={e => handleScroll(e)}>
-      <div id="welcomePage" >
+      <CrossShape loadPage={setAnimationDone} />
+
+      <div id="welcomePage" style={!animationDone ? { backgroundColor: "white", backgroundImage: "none" } : {}}>
         <div className="centerItems">
-          <div className="translucentBg">
+          <div className="translucentBg" hidden={!animationDone}>
             <h1>AnyWeather</h1>
             <h3>Any city, anywhere, animated.</h3>
           </div>
