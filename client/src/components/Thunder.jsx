@@ -16,7 +16,7 @@ const Thunder = () => {
         }
         mojs.addShape('thunder', Thunder);
         thunder.current = new mojs.Shape({
-            parent: thunderContainer,
+            parent: thunderContainer.current,
             shape: 'thunder',
             fill: { 'rgba(255,255,255,0.8)': 'rgba(255,255,255,0.05)' },
             scaleX: window.innerHeight / 120,
